@@ -264,11 +264,11 @@ p {
   }
   .level-bar {
     height: 12px;
-    background: #ECECEC;
+    background: $smoky-white;
   }
   .level-bar-inner {
     height: 12px;
-    background: lighten($theme-color, 15%);
+    background: darken($theme-color, 65%);
   }
 }
 
