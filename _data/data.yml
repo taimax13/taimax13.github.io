@@ -125,7 +125,7 @@ publications:
         details: |
           Automate processes via Slack to streamline internal workflows and improve company communication. The integration uses Flask, MongoDB, and a text similarity model to automate actions based on message content.
 
-      - title: Thinking Outside the Box: Innovative Algorithms to Improve Internal Workflows
+      - title: Thinking Outside the Box Innovative Algorithms to Improve Internal Workflows
         link: "#"
         details: |
           Leverage machine learning models to optimize internal processes and strengthen security. These models, built using algorithms like Gradient Boosting, Random Forest, and Mean Squared Error, predict pod failures, detect vulnerabilities, and monitor model behavior in production, automating key tasks based on real-time data analysis.
