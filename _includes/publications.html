@@ -1,5 +1,7 @@
 {% assign publications = site.data.data.publications %}
 {% if publications %}
+  <pre>{{ publications | jsonify }}</pre>  <!-- This will print the JSON data to the page -->
+{% endif %}
 <section class="section publications-section">
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
@@ -16,18 +18,17 @@
   {% endif %}
 
   <ul class="publication-list">
-    {% for publication in publications.papers %}
+    {% for article in publications.articles %}
     <li class="publication-item">
       <div class="item">
-        {% if publication.link %}
-          <a href="{{ publication.link }}" target="_blank" rel="noopener noreferrer">
-            {{ publication.title }}
+        {% if article.link %}
+          <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">
+            {{ article.title }}
           </a>
         {% else %}
-          <span>{{ publication.title }}</span>
+          <span>{{ article.title }}</span>
         {% endif %}
-        <div class="publication-authors">{{ publication.authors }}</div>
-        <div class="publication-conference">{{ publication.conference }}</div>
+        <div class="publication-details">{{ article.details }}</div>
       </div><!--//item-->
     </li>
     {% endfor %}
