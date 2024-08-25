@@ -1,38 +1,39 @@
 {% assign publications = site.data.data.publications %}
 {% if publications %}
-  <pre>{{ publications | jsonify }}</pre>  <!-- This will print the JSON data to the page -->
-{% endif %}
-<section class="section publications-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ publications.title }}
-  </h2>
+  <!-- This will print the JSON data to the page for debugging purposes -->
+  <pre>{{ publications | jsonify }}</pre>
 
-  {% if publications.intro %}
-  <div class="intro">
-    {{ publications.intro | markdownify }}
-  </div><!--//intro-->
-  {% endif %}
+  <section class="section publications-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ publications.title }}
+    </h2>
 
-  <ul class="publication-list">
-    {% for article in publications.articles %}
-    <li class="publication-item">
-      <div class="item">
-        {% if article.link %}
-          <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">
-            {{ article.title }}
-          </a>
-        {% else %}
-          <span>{{ article.title }}</span>
-        {% endif %}
-        <div class="publication-details">{{ article.details }}</div>
-      </div><!--//item-->
-    </li>
-    {% endfor %}
-  </ul><!--//publication-list-->
+    {% if publications.intro %}
+    <div class="intro">
+      {{ publications.intro | markdownify }}
+    </div><!--//intro-->
+    {% endif %}
 
-</section><!--//section-->
+    <ul class="publication-list">
+      {% for article in publications.articles %}
+      <li class="publication-item">
+        <div class="item">
+          {% if article.link %}
+            <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">
+              {{ article.title }}
+            </a>
+          {% else %}
+            <span>{{ article.title }}</span>
+          {% endif %}
+          <div class="publication-details">{{ article.details }}</div>
+        </div><!--//item-->
+      </li>
+      {% endfor %}
+    </ul><!--//publication-list-->
+
+  </section><!--//section-->
 {% endif %}
