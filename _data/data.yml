@@ -28,6 +28,12 @@ sidebar:
         - idiom: Hebrew
           level: Professional
 
+    cover-letter:
+      title: Cover Letter
+      link: /cover-letter/
+      summary: |
+        
+
 career-profile:
     title: Career Profile
     summary: |
