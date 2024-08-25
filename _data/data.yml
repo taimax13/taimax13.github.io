@@ -108,6 +108,7 @@ education:
         time: 1999 – 2002
 
 publications:
+    title: Publications
     articles:
       - title: Introducing ChainGuard (ChaGu) - A Blockchain-Based Secure Data Transformation and Transfer Protocol
         link: "https://medium.com/@taimax13/introducing-chainguard-chagu-a-blockchain-based-secure-data-transformation-and-transfer-protocol-e4ac1399c2dd"
