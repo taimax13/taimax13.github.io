@@ -122,10 +122,10 @@ publications:
         details: |
           Memory leaks occur when a program allocates memory but fails to release it, gradually increasing memory usage over time. Long-running applications can cause the system to run out of memory, resulting in slowdowns or crashes. Detecting these leaks early is crucial for maintaining application performance and avoiding costly downtime.
 
-      - title: Understanding API Gateways From Cloud to Kubernetes
-        link: "https://medium.com/@taimax13/seamlessly-deploying-new-machine-learning-models-in-production-with-amazon-sagemaker-52d43e744cfd"
-        details: |
-          Think of an API Gateway as the vigilant gatekeeper of your application. Positioned at the front entrance, it intercepts every incoming API request, authenticates the visitor, and directs them to the appropriate backend service.
+#      - title: Understanding API Gateways From Cloud to Kubernetes
+#        link: "https://medium.com/@taimax13/seamlessly-deploying-new-machine-learning-models-in-production-with-amazon-sagemaker-52d43e744cfd"
+#        details: |
+#          Think of an API Gateway as the vigilant gatekeeper of your application. Positioned at the front entrance, it intercepts every incoming API request, authenticates the visitor, and directs them to the appropriate backend service.
 
       - title: Seamlessly Deploying New Machine Learning Models in Production with Amazon SageMaker
         link: "https://medium.com/@taimax13/seamlessly-deploying-new-machine-learning-models-in-production-with-amazon-sagemaker-52d43e744cfd"
@@ -137,10 +137,10 @@ publications:
         details: |
           There are several cloud storage options besides Amazon S3, including Google Cloud Storage, Azure Blob Storage, IBM Cloud Object Storage, Backblaze B2, and DigitalOcean Spaces. Evaluate these options based on your specific needs, like cost, integration, and regional availability, to find the best match.
 
-      - title: Optimizing and Reorganizing Internal Processes Using Slack Integration
-        link: "https://medium.com/@taimax13/optimizing-and-reorganizing-internal-processes-using-slack-integration-3c2679524ae3"
-        details: |
-          Automate processes via Slack to streamline internal workflows and improve company communication. The integration uses Flask, MongoDB, and a text similarity model to automate actions based on message content.
+#      - title: Optimizing and Reorganizing Internal Processes Using Slack Integration
+#        link: "https://medium.com/@taimax13/optimizing-and-reorganizing-internal-processes-using-slack-integration-3c2679524ae3"
+#        details: |
+#          Automate processes via Slack to streamline internal workflows and improve company communication. The integration uses Flask, MongoDB, and a text similarity model to automate actions based on message content.
 
       - title: Thinking Outside the Box Innovative Algorithms to Improve Internal Workflows
         link: "https://medium.com/@taimax13/thinking-outside-the-box-innovative-algorithms-to-improve-internal-workflows-5faa9c7c8217"
