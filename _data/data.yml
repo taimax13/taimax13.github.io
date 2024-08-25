@@ -147,6 +147,45 @@ publications:
 #        details: |
 #          Leverage machine learning models to optimize internal processes and strengthen security. These models, built using algorithms like Gradient Boosting, Random Forest, and Mean Squared Error, predict pod failures, detect vulnerabilities, and monitor model behavior in production, automating key tasks based on real-time data analysis.
 
+projects:
+    title: Projects
+    intro: |
+      Here are some of the projects I've worked on, showcasing my skills in DevOps, Machine Learning, and software engineering.
+    assignments:
+      - title: Chagu - Secure Data Transformation and Transfer Protocol
+        link: "https://github.com/taimax13/Chagu"
+        tagline: |
+          A cutting-edge project focusing on secure data transformation and transfer using blockchain technology, integrating principles from neuroscience and AI.
+
+      - title: Price Predictor - Machine Learning for Price Estimation
+        link: "https://github.com/taimax13/price-predictor"
+        tagline: |
+          A machine learning model developed to predict prices based on historical data, leveraging advanced algorithms and data preprocessing techniques.
+
+      - title: Machine Learning Model Deployment
+        link: "https://github.com/taimax13/ml-deployment"
+        tagline: |
+          A project demonstrating the deployment of a machine learning model using AWS SageMaker and Kubernetes.
+
+      - title: Infrastructure as Code with Terraform
+        link: "https://github.com/taimax13/terraform-infrastructure"
+        tagline: |
+          Automated infrastructure setup using Terraform, including VPC, EC2, and RDS instances.
+
+      - title: Real-Time Data Processing Pipeline
+        link: "https://github.com/taimax13/data-pipeline"
+        tagline: |
+          Developed a real-time data processing pipeline using Apache Kafka and Spark.
+
+      - title: Secure File Transfer Protocol
+        link: "https://github.com/taimax13/secure-file-transfer"
+        tagline: |
+          Implemented a secure file transfer protocol using blockchain technology to ensure data integrity.
+
+      - title: And more you can find here
+        link: "https://github.com/taimax13"
+        tagline: |
+          Explore more of my projects on GitHub.
 
 skills:
     title: Skills & Proficiency
