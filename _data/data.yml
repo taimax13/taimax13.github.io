@@ -47,9 +47,11 @@ certifications:
     title: Certifications
     list:
       - name: AWS Certified Solutions Architect
+        organization: AWS
       - name: Machine Learning Certificate
         organization: AlgoExpert
-
+      - name: Big Data Engineer
+        organization: NAYA Technologies
 experiences:
     title: Experience
     info:
