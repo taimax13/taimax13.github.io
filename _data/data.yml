@@ -150,7 +150,7 @@ publications:
 projects:
     title: Projects
     intro: |
-      Here are some of the projects I've worked on, showcasing my skills in DevOps, Machine Learning, and software engineering.
+      Here are some of the projects I've worked on, showcasing my skills in  Machine Learning, DevOps and Software Engineering.
     assignments:
       - title: Chagu - Secure Data Transformation and Transfer Protocol
         link: "https://github.com/taimax13/Chagu"
