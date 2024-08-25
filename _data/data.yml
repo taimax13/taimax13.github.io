@@ -108,9 +108,6 @@ education:
         time: 1999 – 2002
 
 publications:
-    title: Current Publications (Medium)
-    intro: |
-      Below are some of my selected publications on Medium, where I share insights and strategies in the fields of machine learning, DevOps, and big data.
     articles:
       - title: Introducing ChainGuard (ChaGu) - A Blockchain-Based Secure Data Transformation and Transfer Protocol
         link: "https://medium.com/@taimax13/introducing-chainguard-chagu-a-blockchain-based-secure-data-transformation-and-transfer-protocol-e4ac1399c2dd"
