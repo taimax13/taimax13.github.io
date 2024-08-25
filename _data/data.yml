@@ -134,7 +134,7 @@ publications:
         link: "https://medium.com/aws-tip/secure-data-access-and-management-in-amazon-s3-1be46cc3f0cc"
         details: |
           There are several cloud storage options besides Amazon S3, including Google Cloud Storage, Azure Blob Storage, IBM Cloud Object Storage, Backblaze B2, and DigitalOcean Spaces. Evaluate these options based on your specific needs, like cost, integration, and regional availability, to find the best match.
-      - title: And meny more you can find here
+      - title: More you can find here
         link: "https://medium.com/@taimax13"
 
 #      - title: Optimizing and Reorganizing Internal Processes Using Slack Integration
@@ -162,28 +162,18 @@ projects:
         tagline: |
           A machine learning model developed to predict prices based on historical data, leveraging advanced algorithms and data preprocessing techniques.
 
-      - title: Machine Learning Model Deployment
-        link: "https://github.com/taimax13/ml-deployment"
-        tagline: |
-          A project demonstrating the deployment of a machine learning model using AWS SageMaker and Kubernetes.
-
       - title: Infrastructure as Code with Terraform
-        link: "https://github.com/taimax13/terraform-infrastructure"
+        link: "https://github.com/taimax13/terraform_localstack"
         tagline: |
           Automated infrastructure setup using Terraform, including VPC, EC2, and RDS instances.
 
-      - title: Real-Time Data Processing Pipeline
-        link: "https://github.com/taimax13/data-pipeline"
-        tagline: |
-          Developed a real-time data processing pipeline using Apache Kafka and Spark.
-
-      - title: Secure File Transfer Protocol
-        link: "https://github.com/taimax13/secure-file-transfer"
+      - title: Platform tool
+        link: "https://github.com/taimax13/platform-tool"
         tagline: |
           Implemented a secure file transfer protocol using blockchain technology to ensure data integrity.
 
       - title: And more you can find here
-        link: "https://github.com/taimax13"
+        link: "https://github.com/taimax13?tab=projects"
         tagline: |
           Explore more of my projects on GitHub.
 
