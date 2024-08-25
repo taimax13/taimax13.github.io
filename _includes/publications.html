@@ -1,39 +1,32 @@
 {% assign publications = site.data.data.publications %}
 {% if publications %}
-  <!-- This will print the JSON data to the page for debugging purposes -->
-  <pre>{{ publications | jsonify }}</pre>
+<section class="section publications-section">
 
-  <section class="section publications-section">
-    <h2 class="section-title">
-      <span class="fa-stack fa-xs">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
-      </span>
-      {{ publications.title }}
-    </h2>
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ publications.title }}
+  </h2>
 
-    {% if publications.intro %}
-    <div class="intro">
-      {{ publications.intro | markdownify }}
-    </div><!--//intro-->
+  {% if publications.intro %}
+  <div class="intro">
+    {{ publications.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for publication in publications.papers %}
+  <div class="item">
+    {% if publication.link %}
+      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+    {% else %}
+      <li>{{ publication.title }}</li>
     {% endif %}
+    <div class="publication-authors">{{ publication.authors }}</div>
+    <div class="publication-conference">{{ publication.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
 
-    <ul class="publication-list">
-      {% for article in publications.articles %}
-      <li class="publication-item">
-        <div class="item">
-          {% if article.link %}
-            <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">
-              {{ article.title }}
-            </a>
-          {% else %}
-            <span>{{ article.title }}</span>
-          {% endif %}
-          <div class="publication-details">{{ article.details }}</div>
-        </div><!--//item-->
-      </li>
-      {% endfor %}
-    </ul><!--//publication-list-->
-
-  </section><!--//section-->
+</section><!--//section-->
 {% endif %}
