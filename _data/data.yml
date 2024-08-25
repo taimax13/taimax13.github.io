@@ -127,10 +127,10 @@ publications:
 #        details: |
 #          Think of an API Gateway as the vigilant gatekeeper of your application. Positioned at the front entrance, it intercepts every incoming API request, authenticates the visitor, and directs them to the appropriate backend service.
 
-      - title: Seamlessly Deploying New Machine Learning Models in Production with Amazon SageMaker
-        link: "https://medium.com/@taimax13/seamlessly-deploying-new-machine-learning-models-in-production-with-amazon-sagemaker-52d43e744cfd"
-        details: |
-          Deploying new machine learning models in production needs careful planning to ensure stability. Strategies like Model Versioning, Blue-Green Deployment, Canary Deployment, and A/B Testing help transition models smoothly while minimizing disruption.
+#      - title: Seamlessly Deploying New Machine Learning Models in Production with Amazon SageMaker
+#        link: "https://medium.com/@taimax13/seamlessly-deploying-new-machine-learning-models-in-production-with-amazon-sagemaker-52d43e744cfd"
+#        details: |
+#          Deploying new machine learning models in production needs careful planning to ensure stability. Strategies like Model Versioning, Blue-Green Deployment, Canary Deployment, and A/B Testing help transition models smoothly while minimizing disruption.
 
       - title: Secure Data Access and Management in Amazon S3 (published also by AWS Tips)
         link: "https://medium.com/aws-tip/secure-data-access-and-management-in-amazon-s3-1be46cc3f0cc"
@@ -142,10 +142,10 @@ publications:
 #        details: |
 #          Automate processes via Slack to streamline internal workflows and improve company communication. The integration uses Flask, MongoDB, and a text similarity model to automate actions based on message content.
 
-      - title: Thinking Outside the Box Innovative Algorithms to Improve Internal Workflows
-        link: "https://medium.com/@taimax13/thinking-outside-the-box-innovative-algorithms-to-improve-internal-workflows-5faa9c7c8217"
-        details: |
-          Leverage machine learning models to optimize internal processes and strengthen security. These models, built using algorithms like Gradient Boosting, Random Forest, and Mean Squared Error, predict pod failures, detect vulnerabilities, and monitor model behavior in production, automating key tasks based on real-time data analysis.
+#      - title: Thinking Outside the Box Innovative Algorithms to Improve Internal Workflows
+#        link: "https://medium.com/@taimax13/thinking-outside-the-box-innovative-algorithms-to-improve-internal-workflows-5faa9c7c8217"
+#        details: |
+#          Leverage machine learning models to optimize internal processes and strengthen security. These models, built using algorithms like Gradient Boosting, Random Forest, and Mean Squared Error, predict pod failures, detect vulnerabilities, and monitor model behavior in production, automating key tasks based on real-time data analysis.
 
 skills:
     title: Skills & Proficiency
