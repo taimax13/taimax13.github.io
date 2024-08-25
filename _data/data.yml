@@ -133,6 +133,8 @@ publications:
         link: "https://medium.com/aws-tip/secure-data-access-and-management-in-amazon-s3-1be46cc3f0cc"
         details: |
           There are several cloud storage options besides Amazon S3, including Google Cloud Storage, Azure Blob Storage, IBM Cloud Object Storage, Backblaze B2, and DigitalOcean Spaces. Evaluate these options based on your specific needs, like cost, integration, and regional availability, to find the best match.
+      - title: And meny more you can find here
+        link: "https://medium.com/@taimax13"
 
 #      - title: Optimizing and Reorganizing Internal Processes Using Slack Integration
 #        link: "https://medium.com/@taimax13/optimizing-and-reorganizing-internal-processes-using-slack-integration-3c2679524ae3"
@@ -143,6 +145,7 @@ publications:
 #        link: "https://medium.com/@taimax13/thinking-outside-the-box-innovative-algorithms-to-improve-internal-workflows-5faa9c7c8217"
 #        details: |
 #          Leverage machine learning models to optimize internal processes and strengthen security. These models, built using algorithms like Gradient Boosting, Random Forest, and Mean Squared Error, predict pod failures, detect vulnerabilities, and monitor model behavior in production, automating key tasks based on real-time data analysis.
+
 
 skills:
     title: Skills & Proficiency
