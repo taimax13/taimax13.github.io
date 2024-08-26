@@ -1,0 +1,36 @@
+---
+layout: default
+title: "My Projects"
+---
+
+<div class="projects-page">
+  <h1>{{ page.title }}</h1>
+  <p>{{ site.data.projects.intro }}</p>
+  <div class="projects-grid">
+    {% for project in site.data.projects.assignments %}
+      <div class="project-card">
+        <div class="card-inner">
+          <div class="card-front" style="background-image: url('{{ project.image }}');">
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.tagline }}</p>
+          </div>
+          <div class="card-back">
+            <a href="{{ project.link }}" target="_blank" class="btn btn-outline-secondary btn-icon">
+              <i class="fas fa-folder-open"></i> View Project
+            </a>
+            {% if project.demo %}
+              <a href="{{ project.demo }}" target="_blank" class="btn btn-outline-secondary btn-icon">
+                <i class="fas fa-play-circle"></i> View Demo
+              </a>
+            {% endif %}
+            {% if project.presentation %}
+              <a href="{{ project.presentation }}" target="_blank" class="btn btn-outline-secondary btn-icon">
+                <i class="fas fa-file-alt"></i> View Presentation
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

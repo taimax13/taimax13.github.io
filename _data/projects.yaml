@@ -1,0 +1,33 @@
+title: Projects
+intro: |
+  Here are some of the projects I've worked on, showcasing my skills in Machine Learning, DevOps, and Software Engineering.
+assignments:
+  - title: Chagu - Secure Data Transformation and Transfer Protocol
+    link: "https://github.com/taimax13/Chagu"
+    tagline: |
+      A cutting-edge project focusing on secure data transformation and transfer using blockchain technology, integrating principles from neuroscience and AI.
+    image: "/assets/images/chagu1.png"
+
+  - title: Price Predictor - Machine Learning for Price Estimation
+    link: "https://github.com/taimax13/price-predictor"
+    tagline: |
+      A machine learning model developed to predict prices based on historical data, leveraging advanced algorithms and data preprocessing techniques.
+    image: "/assets/images/price_predictor.png"
+
+  - title: Infrastructure as Code with Terraform
+    link: "https://github.com/taimax13/terraform_localstack"
+    tagline: |
+      Automated infrastructure setup using Terraform, including VPC, EC2, and RDS instances.
+    image: "/assets/images/terraform.png"
+
+  - title: Platform tool
+    link: "https://github.com/taimax13/platform-tool"
+    tagline: |
+      Implemented a secure file transfer protocol using blockchain technology to ensure data integrity.
+    image: "/assets/images/platform_tool.png"
+
+  - title: And more you can find here
+    link: "https://github.com/taimax13?tab=projects"
+    tagline: |
+      Explore more of my projects on GitHub.
+    image: "/assets/images/github_projects.png"
