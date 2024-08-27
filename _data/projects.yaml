@@ -24,7 +24,7 @@ assignments:
   - title: Platform tool
     link: "https://github.com/taimax13/platform-tool"
     tagline: |
-      Implemented a secure file transfer protocol using blockchain technology to ensure data integrity.
+      this is demo example of tool, developed for platform - AWS Lambda functions, SQS, and either RDS Postgres or DocumentDB.
     image: "/assets/images/platform_tool.png"
 
   - title: And more you can find here

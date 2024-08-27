@@ -8,8 +8,9 @@
 .project-card {
   perspective: 1000px;
   width: 100%;
-  height: 250px; /* Increased height to better fit the image and text */
+  height: 250px; /* Consistent height to avoid jumping */
   position: relative;
+  overflow: hidden; /* Ensures no content spills out during flip */
 }
 
 .card-inner {
@@ -35,30 +36,41 @@
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for better definition */
 }
 
 .card-front {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff; /* Ensures text is visible over the image */
+  color: #ffffff;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow to the text for better readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), /* Strong black shadow */
+               -2px -2px 4px rgba(0, 0, 0, 0.9), /* Strong black shadow from another angle */
+               2px -2px 4px rgba(0, 0, 0, 0.9), /* Strong black shadow from another angle */
+               -2px 2px 4px rgba(0, 0, 0, 0.9); /* Strong black shadow from another angle *//* Darker shadow to improve text readability */
 }
 
 .card-back {
-  background-color: #b57f8c;
-  color: #fff;
+  background-color: #914c5b; /* Darker, richer shade to improve contrast */
+  color: #ffffff; /* Keeps text visible on the darker background */
   transform: rotateY(180deg);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Slightly stronger shadow to ensure readability */
 }
 
 .card-back a {
   margin: 5px 0;
+  color: #ffffff; /* Keeps links visible on the darker background */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Ensures link text is readable */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.card-back a:hover {
+  text-decoration: underline; /* Adds underline on hover for better interactivity */
 }
 
 .project-image {
