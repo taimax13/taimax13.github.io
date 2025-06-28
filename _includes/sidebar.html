@@ -2,7 +2,6 @@
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
-
     {% if sidebar.avatar %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
@@ -14,7 +13,6 @@
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
-
   </div><!--//profile-container-->
 
   {% include contact.html %}
@@ -30,23 +28,18 @@
     {% include about.html %}
   {% endif %}
 
-   <!-- Cover Letter Reference -->
+  <!-- Cover Letter Reference -->
   <div class="cover-letter-link">
     <a href="{{ site.baseurl }}/cover-letter/" class="btn btn-outline-primary btn-icon">
       <i class="fas fa-file-alt"></i> Cover Letter
     </a>
   </div><!--//cover-letter-link-->
 
+  <!-- ChaGu Reference -->
   <div class="chagu-container container-block">
     <a href="{{ site.baseurl }}/chagu/" class="btn btn-outline-dark btn-icon">
       <i class="fas fa-terminal"></i> Explore ChaGu
     </a>
   </div>
-  {% endif %}
-
-
-
-
-
 
 </div><!--//sidebar-wrapper-->
