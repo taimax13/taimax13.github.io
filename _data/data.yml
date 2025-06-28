@@ -191,22 +191,25 @@ projects:
 
 skills:
     title: Skills & Proficiency
-
     toolset:
-      - name: Python & Bash
+      - name: Python, Pandas & NumPy
         level: 98%
-
-      - name: Jenkins & Kubernetes
+      - name: Scikit-learn, XGBoost & LightGBM
         level: 95%
-
-      - name: Docker & Terraform
-        level: 98%
-
-      - name: AWS & Google Cloud
-        level: 95%
-
-      - name: Machine Learning & MLOps
+      - name: Deep Learning (Keras, TensorFlow, PyTorch)
         level: 90%
+      - name: Machine Learning Ops (SageMaker, MLflow, Kubeflow)
+        level: 92%
+      - name: Data Wrangling & Feature Engineering
+        level: 96%
+      - name: SQL, BigQuery & Data Lakes
+        level: 90%
+      - name: Data Visualization (Plotly, Seaborn, Dash)
+        level: 92%
+      - name: Cloud Platforms (AWS, GCP, Azure)
+        level: 90%
+      - name: Security-Aware AI (Prompt Injection Defense, Blockchain Auditing)
+        level: 88%
 
 footer: >
     Thank you for visiting <i class="fas fa-heart"></i> from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Talex Maxim</a>
