@@ -1,28 +1,48 @@
-{% assign chagu_profile = site.data.chagu-profile %}
-{% if chagu_profile %}
-<section class="section chagu-section">
+---
+layout: default
+title: ChaGu – AI Security Protocol
+permalink: /chagu/
+---
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-shield-alt fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ chagu_profile.title }}
-  </h2>
+<h1>ChaGu – The Secure AI Guardian</h1>
 
-  <div class="summary">
-    {{ chagu_profile.summary | markdownify }}
-  </div><!--//summary-->
+<p>
+  ChaGu (ChainGuard) is a blockchain-backed, agentic security protocol designed to defend modern AI infrastructure. From anomaly detection to prompt-level protection, ChaGu is built to think before it acts—and act when it must.
+</p>
 
-  <div class="chagu-links">
-    <ul>
-      {% for article in chagu_profile.articles %}
-        <li>
-          <strong>{{ article.label }}</strong> – <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div><!--//chagu-links-->
+<p>
+  <strong>Key Capabilities:</strong>
+</p>
 
-</section><!--//section-->
-{% endif %}
+<ul>
+  <li><strong>Agentic AI Firewall:</strong> Monitors prompt inputs, inspects behaviors, and actively intervenes against suspicious or adversarial usage.</li>
+  <li><strong>Blockchain Trust Layer:</strong> Ensures auditability and traceability in data transformations and AI outputs.</li>
+  <li><strong>RAG-Enhanced Security:</strong> Uses retrieval-augmented generation and pattern detection to assess context risk in real time.</li>
+  <li><strong>Machine Whisperer Mode:</strong> Detects micro-signals in model behavior before failures or threats escalate.</li>
+</ul>
+
+<p>
+  ChaGu has evolved through hackathons, real-world simulations, and critical post-mortems. It's a living system designed to scale with AI's growing complexity.
+</p>
+
+<p><strong>Featured Articles:</strong></p>
+
+<ul>
+  <li><a href="https://medium.com/@taimax13/introducing-chainguard-chagu-a-blockchain-based-secure-data-transformation-and-transfer-protocol-e4ac1399c2dd" target="_blank">🔰 Introducing ChaGu</a></li>
+  <li><a href="https://medium.com/@taimax13/post-mortem-a-hackathon-journey-with-chagu-dragons-b8e99e618e4d" target="_blank">🧪 Hackathon Journey</a></li>
+  <li><a href="https://devsecopsai.today/secure-ai-agents-in-chagu-risk-mitigation-that-thinks-before-it-acts-e5d7c6205b00" target="_blank">🧠 Secure AI Agents</a></li>
+  <li><a href="https://medium.com/devsecops-ai/chagu-4-0-the-prompt-that-fires-back-4b0422493430" target="_blank">💥 ChaGu 4.0 – The Prompt That Fires Back</a></li>
+  <li><a href="https://medium.com/@taimax13/when-machines-whisper-we-listen-learn-and-interfere-if-needed-651417ed36ee" target="_blank">👂 When Machines Whisper</a></li>
+  <li><a href="https://devsecopsai.today/from-time-bombs-to-trust-traps-why-chagu-is-your-shield-in-the-age-of-ai-generated-code-00bb3016cfbc" target="_blank">🛡 Trust Traps & Shields</a></li>
+</ul>
+
+<p>
+  ChaGu is continuously evolving. Join the mission, contribute ideas, or explore integrations.
+</p>
+
+<!-- Back Button using existing style -->
+<p>
+  <a href="javascript:history.back()" class="btn btn-outline-primary btn-icon">
+    <i class="fas fa-arrow-left"></i> Back
+  </a>
+</p>
