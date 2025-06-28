@@ -33,7 +33,14 @@ sidebar:
       title: Cover Letter
       link: /cover-letter/
       summary: |
-        
+
+    chagu-profile:
+      title: ChaGu – AI Security Protocol
+      summary: |
+        ChaGu is a blockchain-backed, agentic security framework designed to protect data pipelines, inspect LLM prompts, and detect anomalies in AI-generated code. From hackathon-born to version 4.0 with retaliation capabilities — it is your secure AI layer.
+
+      link: /chagu/
+
 
 career-profile:
     title: Career Profile

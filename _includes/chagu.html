@@ -1,0 +1,28 @@
+{% assign chagu_profile = site.data.chagu-profile %}
+{% if chagu_profile %}
+<section class="section chagu-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-shield-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ chagu_profile.title }}
+  </h2>
+
+  <div class="summary">
+    {{ chagu_profile.summary | markdownify }}
+  </div><!--//summary-->
+
+  <div class="chagu-links">
+    <ul>
+      {% for article in chagu_profile.articles %}
+        <li>
+          <strong>{{ article.label }}</strong> – <a href="{{ article.url }}" target="_blank">{{ article.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div><!--//chagu-links-->
+
+</section><!--//section-->
+{% endif %}

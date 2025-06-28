@@ -1,0 +1,30 @@
+title: "ChaGu – The Secure AI Guardian"
+
+summary: >
+  ChaGu (ChainGuard) is a secure, blockchain-backed protocol designed to protect, observe, and guide AI interactions across data pipelines. 
+  From monitoring whispering machines to shielding you from malicious LLM-generated time bombs, ChaGu evolves with your infrastructure.
+
+articles:
+  - label: "1. Getting Started"
+    title: "Introducing ChaGu"
+    url: "https://medium.com/@taimax13/introducing-chainguard-chagu-a-blockchain-based-secure-data-transformation-and-transfer-protocol-e4ac1399c2dd"
+
+  - label: "2. Hackathon Origins"
+    title: "Post-Mortem: A Hackathon Journey"
+    url: "https://medium.com/@taimax13/post-mortem-a-hackathon-journey-with-chagu-dragons-b8e99e618e4d"
+
+  - label: "3. Agentic Intelligence"
+    title: "Secure AI Agents in ChaGu"
+    url: "https://devsecopsai.today/secure-ai-agents-in-chagu-risk-mitigation-that-thinks-before-it-acts-e5d7c6205b00"
+
+  - label: "4. Prompt Firewall"
+    title: "ChaGu 4.0 – The Prompt That Fires Back"
+    url: "https://medium.com/devsecops-ai/chagu-4-0-the-prompt-that-fires-back-4b0422493430"
+
+  - label: "5. Behavioral Signals"
+    title: "When Machines Whisper"
+    url: "https://medium.com/@taimax13/when-machines-whisper-we-listen-learn-and-interfere-if-needed-651417ed36ee"
+
+  - label: "6. Final Shield"
+    title: "Time Bombs and Trust Traps"
+    url: "https://devsecopsai.today/from-time-bombs-to-trust-traps-why-chagu-is-your-shield-in-the-age-of-ai-generated-code-00bb3016cfbc"
