@@ -81,7 +81,37 @@ $sidebar-order: 2;
 }
 
 @media print {
-  .non-cv-section, nav, footer {
+  /* Hide print-only irrelevant stuff */
+  nav, footer, .non-cv-section, .sidebar, .project-showcase, .button, .print-button {
     display: none !important;
   }
+
+  /* Set light theme for print */
+  body, .cv-wrapper, .main {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  /* Remove annoying URL after links */
+  a::after {
+    content: "" !important;
+  }
+
+  /* Tweak layout for page breaks */
+  .section, .experience, .education, .skills {
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Fix image size for profile photo */
+  img.profile-photo {
+    max-width: 120px;
+    height: auto;
+    border-radius: 50%;
+  }
 }
+
