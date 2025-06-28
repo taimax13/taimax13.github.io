@@ -14,20 +14,6 @@ sidebar:
     linkedin: Talex Maxim
     print: true
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Professional
-
-        - idiom: Russian
-          level: Native
-
-        - idiom: Polish
-          level: Professional
-
-        - idiom: Hebrew
-          level: Professional
 
     cover-letter:
       title: Cover Letter
