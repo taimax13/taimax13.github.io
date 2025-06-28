@@ -110,13 +110,14 @@ experiences:
 education:
     title: Education
     info:
-      - degree: MS Degree, Computer and Information Sciences and Support Services
-        university: Stavropol State Agricultural University
-        time: 1999 – 2004
+      - equivalent - degree: MS, Data Science
+        university: Y-Data
 
-      - degree: Associate’s Degree, Computer Science
+      - degree: MBA, Banking and Technology
+        university: Bologna University
+
+      - degree: Computer and Information Sciences and Support Services
         university: Stavropol State Agricultural University
-        time: 1999 – 2002
 
 publications:
     title: Publications
