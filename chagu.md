@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Cover Letter
-permalink: /cover-letter/
+title: ChaGu – Secure AI Protocol
+permalink: /chagu/
 ---
 
 {% include chagu.html %}
