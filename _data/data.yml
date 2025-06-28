@@ -5,7 +5,7 @@ sidebar:
 
     # Profile information
     name: Talex Maxim
-    tagline: ML Engineer and DevOps
+    tagline: AI Scientist
     avatar: me_2.png  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -45,7 +45,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Passionate and highly skilled DevOps and Machine Learning Engineer with over 8 years of experience in developing scalable infrastructure solutions and optimizing machine learning algorithms. Proven expertise in various ML tools. Strong background in numerical computing, data mining, and predictive modeling techniques. A fast learner with autodidactic skills, meticulous, and a highly motivated team player.
+      AI Scientist with 8+ years of experience designing robust ML systems and intelligent infrastructure at scale. I specialize in LLM safety, content moderation, user behavior modeling, and infra automation. I architected the Chagu protocol, built predictive ETL pipelines, and deployed customer-facing personalization systems serving millions. I thrive at the intersection of AI, infra, and trust—building end-to-end pipelines that are safe, scalable, and impactful.
 
 professional-knowledge:
     title: Professional Knowledge
@@ -70,7 +70,19 @@ experiences:
     title: Experience
     info:
       - role: Sr. DevOps & MLOps Engineer
-        time: 2022 – Present
+      - time: 2024 – Present
+      - company: Checkpoint
+      - details: |
+          - Designed, implemented, and maintained scalable infrastructure using Infrastructure as Code (Terraform, Ansible), and container orchestration systems like Kubernetes (AKS, EKS, GKE).
+          - Developed and optimized continuous integration and delivery pipelines for seamless code deployments, reducing manual intervention and increasing efficiency across environments.
+          - Managed cloud infrastructures on AWS, Azure, and GCP, focusing on high availability, security, and cost-efficiency in production environments.
+          - ML workflows using platforms like SageMaker, Kubeflow, and MLflow. Automated model training, validation, and deployment processes, ensuring efficient scaling of machine learning models in production.
+          - Worked closely with data science and development teams to ensure smooth integration of ML models into production environments, ensuring performance, reliability, and scalability.
+          -  Implemented monitoring solutions (Prometheus, Grafana, Datadog) for both infrastructure and ML models to ensure proactive issue detection and resolution, including anomaly detection for model behavior.
+          -  Enforced security best practices across infrastructure, including the setup of automated vulnerability scans, access management, and data encryption.
+
+      - role: Sr. DevOps & MLOps Engineer
+        time: 2022 – 2024
         company: Ezbob
         details: |
           - Built ML algorithm infrastructure to execute over big data.
