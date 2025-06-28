@@ -37,4 +37,22 @@
     </a>
   </div><!--//cover-letter-link-->
 
+  {% assign chagu_profile = site.data.data.chagu-profile %}
+  {% if chagu_profile %}
+  <div class="chagu-container container-block">
+    <h2 class="container-block-title">{{ chagu_profile.title }}</h2>
+    <p>{{ chagu_profile.summary }}</p>
+    <p>
+      <a href="{{ site.baseurl }}/chagu/" class="btn btn-outline-dark btn-icon">
+        <i class="fas fa-terminal"></i> Explore ChaGu
+      </a>
+    </p>
+  </div>
+  {% endif %}
+
+
+
+
+
+
 </div><!--//sidebar-wrapper-->
