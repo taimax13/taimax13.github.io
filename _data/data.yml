@@ -70,9 +70,9 @@ experiences:
     title: Experience
     info:
       - role: Sr. DevOps & MLOps Engineer
-      - time: 2024 – Present
-      - company: Checkpoint
-      - details: |
+        time: 2024 – Present
+        company: Checkpoint
+        details: |
           - Designed, implemented, and maintained scalable infrastructure using Infrastructure as Code (Terraform, Ansible), and container orchestration systems like Kubernetes (AKS, EKS, GKE).
           - Developed and optimized continuous integration and delivery pipelines for seamless code deployments, reducing manual intervention and increasing efficiency across environments.
           - Managed cloud infrastructures on AWS, Azure, and GCP, focusing on high availability, security, and cost-efficiency in production environments.
