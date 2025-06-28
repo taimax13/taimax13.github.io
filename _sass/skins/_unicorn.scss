@@ -1,10 +1,21 @@
-/* Unicorn variables */
-$theme-color: #FFB6C1; /* Light Pink */
-$text-color: #9370DB; /* Medium Purple */
-$text-color-secondary: #4B4B4B; /* Intense Grey */
-$text-grey: #D3D3D3; /* Light Grey */
-$divider: #FFD700; /* Gold */
-$lighter-grey: #E0FFFF; /* Light Cyan */
-$darker-grey: #BA55D3; /* Medium Orchid */
-$smoky-white: #FFF5EE; /* Seashell (a very light pinkish-white) */
-$heart: #FF69B4; /* Hot Pink */
+// /* Unicorn variables */
+// $theme-color: #FFB6C1; /* Light Pink */
+// $text-color: #9370DB; /* Medium Purple */
+// $text-color-secondary: #4B4B4B; /* Intense Grey */
+// $text-grey: #D3D3D3; /* Light Grey */
+// $divider: #FFD700; /* Gold */
+// $lighter-grey: #E0FFFF; /* Light Cyan */
+// $darker-grey: #BA55D3; /* Medium Orchid */
+// $smoky-white: #FFF5EE; /* Seashell (a very light pinkish-white) */
+// $heart: #FF69B4; /* Hot Pink */
+
+$theme-color:       #FFB6C1; // Light Pink (main accent)
+$text-color:        #9370DB; // Medium Purple (primary text)
+$text-color-secondary: #4B4B4B; // Intense Grey (secondary text)
+$text-grey:         #D3D3D3; // Light Grey
+$divider:           #FFD700; // Gold (for fancy touches like borders)
+$lighter-grey:      #E0FFFF; // Light Cyan (soft blue hint)
+$darker-grey:       #BA55D3; // Medium Orchid (for headlines or bold text)
+$background:        #FFF5EE; // Smoky White (page background)
+$heart:             #FF69B4; // Hot Pink (icon hover, love markers)
+$magic-blue:        #B2EBF2; // 🧊 Light Aqua (to match your phone 💙)
