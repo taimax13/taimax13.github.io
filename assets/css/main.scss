@@ -69,12 +69,14 @@ $sidebar-order: 2;
 // ------------------------
 
 .chagu-banner-img {
-  width: 100%;
+  max-width: 100%;
   max-height: 300px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
+  display: block;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  display: block;
   margin-bottom: 20px;
 }
 
