@@ -80,3 +80,8 @@ $sidebar-order: 2;
   margin-bottom: 20px;
 }
 
+@media print {
+  .non-cv-section, nav, footer {
+    display: none !important;
+  }
+}
