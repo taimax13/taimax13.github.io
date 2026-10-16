@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Dragon wings</title>
+  <rect width="64" height="64" rx="13" fill="#101719"/>
+  <defs>
+    <linearGradient id="membrane" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#6baba1"/>
+      <stop offset="1" stop-color="#245e58"/>
+    </linearGradient>
+    <g id="wing" stroke-linejoin="round">
+      <path d="M31 46C25 32 19 21 5 10L10 27L4 36Q13 31 19 36L17 46Q24 40 31 51Z" fill="url(#membrane)" stroke="#d4b67b" stroke-width="2.2"/>
+      <path d="M31 46Q20 29 5 10M31 46L10 27M31 46L19 36" fill="none" stroke="#d4b67b" stroke-width="1.5"/>
+    </g>
+  </defs>
+  <use href="#wing"/>
+  <use href="#wing" transform="translate(64 0) scale(-1 1)"/>
+  <path d="M32 33L35 43L32 53L29 43Z" fill="#d4b67b"/>
+</svg>

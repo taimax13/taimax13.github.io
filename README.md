@@ -92,3 +92,5 @@ Check out for more themes: [**Jekyll Themes**](http://jekyll-themes.com).
 ### Downloadable CV
 
 The PDF at `assets/files/talex-maxim-cv.pdf` and the print CV share the reviewed wording in `_data/cv.json`. After an approved text update, install `reportlab` and `Pillow`, run `python3 scripts/build_cv.py`, and inspect every rendered PDF page before publishing. The first-page header uses the existing gold-and-teal portrait.
+
+The primary download is the two-page CV, built from `_data/cv-short.json` with `python3 scripts/build_cv.py --variant short`. The full CV remains available from `_data/cv.json` and is built with `python3 scripts/build_cv.py`. Keep shared employment details, qualifications and current skills consistent across both reviewed sources.

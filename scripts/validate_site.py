@@ -92,6 +92,10 @@ def validate(directory):
     pdf_path = '/assets/files/talex-maxim-cv.pdf'
     pdf = (root / pdf_path.lstrip('/')).read_bytes()
     assert pdf.startswith(b'%PDF-') and len(pdf) > 1000, 'Missing or invalid downloadable CV'
+    short_pdf_path = '/assets/files/talex-maxim-cv-short.pdf'
+    assert (root / short_pdf_path.lstrip('/')).read_bytes().startswith(b'%PDF-'), 'Missing short CV'
+    for route in ['/', '/print']:
+        assert any(t == 'a' and a.get('href') == short_pdf_path and 'download' in a for t, a in pages[route].elements), f'Missing short CV download: {route}'
     print_cv = (root / 'print.html').read_text()
     for required in ['Security Beyond Chagu', 'SAST', 'SCA', 'YARA', 'Opengrep', 'Temporal', 'ATAS UK clearance.']:
         assert required in print_cv, f'Missing CV detail: {required}'

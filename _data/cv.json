@@ -142,11 +142,15 @@
     },
     {
       "kind": "subheading",
-      "text": "Dream team · Global corporation"
+      "text": "Nasdaq-listed global e-commerce marketplace"
     },
     {
       "kind": "metadata",
-      "text": "Staff AI Engineer | 2025–Present"
+      "text": "Staff AI Engineer · Contract engagement | End of 2025–Present"
+    },
+    {
+      "kind": "metadata",
+      "text": "Promoted from Senior AIOps Engineer in 2026."
     },
     {
       "kind": "bullet",
@@ -330,7 +334,7 @@
     },
     {
       "kind": "paragraph",
-      "text": "Vertex AI, Bedrock, Claude, Gemini, OpenAI, LiteLLM, Langfuse, LangChain, Temporal, agent orchestration, tool integration, and evaluation."
+      "text": "Vertex AI, Bedrock, Claude, Gemini, OpenAI, LiteLLM, Langfuse, LangChain, LangGraph, CrewAI, Temporal, agent orchestration, tool integration, and evaluation."
     },
     {
       "kind": "label",
@@ -338,7 +342,7 @@
     },
     {
       "kind": "paragraph",
-      "text": "SageMaker, Kubeflow, MLflow, Airflow, AWS Glue, ETL pipelines, PostgreSQL, Redis, Neo4j, and BigQuery."
+      "text": "SageMaker, Kubeflow, MLflow, Anyscale / Ray, Airflow, AWS Glue, ETL pipelines, PostgreSQL, Redis, Neo4j, and BigQuery."
     },
     {
       "kind": "label",
@@ -366,7 +370,7 @@
     },
     {
       "kind": "paragraph",
-      "text": "University of Greenwich — Registered researcher"
+      "text": "University of Greenwich — Registered researcher | October 2026–Present"
     },
     {
       "kind": "paragraph",
@@ -378,11 +382,11 @@
     },
     {
       "kind": "label",
-      "text": "Specialist Diploma"
+      "text": "Specialist Diploma in Economics"
     },
     {
       "kind": "paragraph",
-      "text": "Stavropol State Agrarian University"
+      "text": "Stavropol State Agrarian University | 2004"
     },
     {
       "kind": "paragraph",
@@ -394,7 +398,7 @@
     },
     {
       "kind": "paragraph",
-      "text": "Università di Bologna"
+      "text": "Università di Bologna | 2013"
     },
     {
       "kind": "section",
