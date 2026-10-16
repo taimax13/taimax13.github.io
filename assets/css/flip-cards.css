@@ -1,0 +1,78 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  perspective: 1000px;
+  width: 100%;
+  height: 250px; /* Consistent height to avoid jumping */
+  position: relative;
+  overflow: hidden; /* Ensures no content spills out during flip */
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.project-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for better definition */
+}
+
+.card-front {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9), /* Strong black shadow */
+               -2px -2px 4px rgba(0, 0, 0, 0.9), /* Strong black shadow from another angle */
+               2px -2px 4px rgba(0, 0, 0, 0.9), /* Strong black shadow from another angle */
+               -2px 2px 4px rgba(0, 0, 0, 0.9); /* Strong black shadow from another angle *//* Darker shadow to improve text readability */
+}
+
+.card-back {
+  background-color: #914c5b; /* Darker, richer shade to improve contrast */
+  color: #ffffff; /* Keeps text visible on the darker background */
+  transform: rotateY(180deg);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6); /* Slightly stronger shadow to ensure readability */
+}
+
+.card-back a {
+  margin: 5px 0;
+  color: #ffffff; /* Keeps links visible on the darker background */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); /* Ensures link text is readable */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.card-back a:hover {
+  text-decoration: underline; /* Adds underline on hover for better interactivity */
+}
+
+.project-image {
+  display: none; /* Hides the project image if used as a background */
+}

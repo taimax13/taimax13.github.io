@@ -1,0 +1,448 @@
+{
+  "header": [
+    "TALEX MAXIM",
+    "Staff AI Engineer · Security Researcher",
+    "PhD Researcher in Computer Science — University of Greenwich",
+    "Doctoral research: Chagu and agentic AI security · ATAS UK clearance.",
+    "taimax13@gmail.com",
+    "GitHub: github.com/taimax13 · LinkedIn: linkedin.com/in/talex-maxim"
+  ],
+  "blocks": [
+    {
+      "kind": "section",
+      "text": "PROFESSIONAL PROFILE"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Data Scientist and Staff AI Engineer with a background in statistics, machine learning, and production systems. Develop ML models, LLM applications, and AI agents, from defining the problem and testing an approach to deployment and ongoing evaluation."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Work spans anomaly detection, application security, data pipelines, and the infrastructure needed to run models reliably. Research how code, dependencies, permissions, and exposed features can create exploitable paths through a system."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Registered PhD Researcher at the University of Greenwich and creator of Chagu. Study security and accountability in agentic AI using anomaly detection, provenance graphs, and blockchain."
+    },
+    {
+      "kind": "section",
+      "text": "RESEARCH AND SELECTED PROJECTS"
+    },
+    {
+      "kind": "subheading",
+      "text": "Chagu"
+    },
+    {
+      "kind": "metadata",
+      "text": "Creator, AI Data Scientist and Researcher | August 2024–Present"
+    },
+    {
+      "kind": "bullet",
+      "text": "Created Chagu, a protocol and research project on security and accountability in distributed and agentic systems."
+    },
+    {
+      "kind": "bullet",
+      "text": "Academic research forming the basis of my doctoral thesis at the University of Greenwich."
+    },
+    {
+      "kind": "bullet",
+      "text": "Study anomaly detection, provenance graphs, and blockchain-based accountability."
+    },
+    {
+      "kind": "bullet",
+      "text": "Build prototypes and repeatable experiments to test agent behavior, security assumptions, and failure cases."
+    },
+    {
+      "kind": "bullet",
+      "text": "Share the work through open-source code, technical articles, and talks."
+    },
+    {
+      "kind": "subheading",
+      "text": "Security Beyond Chagu"
+    },
+    {
+      "kind": "metadata",
+      "text": "Data science for application security and attack-path analysis"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Research how attackers can reach and influence software through its dependencies, code, and exposed features."
+    },
+    {
+      "kind": "bullet",
+      "text": "Study how ML, LLMs, and agents can support static application security testing (SAST), software composition analysis (SCA), infrastructure-as-code (IaC) analysis, and software bill of materials (SBOM) enrichment."
+    },
+    {
+      "kind": "bullet",
+      "text": "Investigate whether attack patterns, code reachability, and execution context can reduce false alerts from isolated rule matches and help reviewers focus on exploitable issues."
+    },
+    {
+      "kind": "bullet",
+      "text": "Research deterministic attack-path discovery across code, dependencies, configuration, and permissions. Record the conditions each path requires and the evidence needed to validate it."
+    },
+    {
+      "kind": "bullet",
+      "text": "Map inputs from contact and lead forms, issue reports, support tickets, uploads, APIs, webhooks, chatbots, and agents. Trace how those inputs can reach internal data or actions."
+    },
+    {
+      "kind": "bullet",
+      "text": "Study malicious and vulnerable packages, transitive dependencies, installation scripts, dependency hijacking, typosquatting, protestware, and maintainer history."
+    },
+    {
+      "kind": "bullet",
+      "text": "Assess how SBOMs, attestations, Sigstore, in-toto, and SLSA can help verify where software came from and how it was built."
+    },
+    {
+      "kind": "bullet",
+      "text": "Explore persistent memory and retrieval using retrieval-augmented generation (RAG) and knowledge graphs, with batch and streaming pipelines for data and context used by LLMs and agents."
+    },
+    {
+      "kind": "bullet",
+      "text": "Study graph learning, sequence models, and anomaly detection for dependency exploitability, CI/CD drift, and unusual log behavior."
+    },
+    {
+      "kind": "bullet",
+      "text": "Research developer copilots that explain findings, suggest secure fixes and pull requests, generate policies as code, and explain misconfigurations. Examine MCP integrations and VibeCoding workflows."
+    },
+    {
+      "kind": "bullet",
+      "text": "Define reference test sets and evaluation measures: precision and recall at fixed alert budgets, attack-path coverage, developer acceptance, time to signal, and cost per scan. Use repeatable tests and feedback to check detection quality."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Example scenarios include Log4j exploitation, Shai-Hulud package compromise, malicious issue titles, poisoned CRM submissions, and instructions hidden in support tickets."
+    },
+    {
+      "kind": "subheading",
+      "text": "SARAD"
+    },
+    {
+      "kind": "metadata",
+      "text": "Applied Machine Learning Research"
+    },
+    {
+      "kind": "bullet",
+      "text": "Co-developed SARAD to detect anomalies in synthetic aperture radar images using RX statistics, autoencoder reconstruction, and combined anomaly scores."
+    },
+    {
+      "kind": "bullet",
+      "text": "Helped define the research problem, run experiments, and analyze anomalous images and model failures."
+    },
+    {
+      "kind": "bullet",
+      "text": "Measured detection performance using ROC-AUC and precision–recall metrics."
+    },
+    {
+      "kind": "bullet",
+      "text": "Improved GPU data loading using window batching and TFRecords, and tuned the training configuration."
+    },
+    {
+      "kind": "section",
+      "text": "PROFESSIONAL EXPERIENCE"
+    },
+    {
+      "kind": "subheading",
+      "text": "Dream team · Global corporation"
+    },
+    {
+      "kind": "metadata",
+      "text": "Staff AI Engineer | 2025–Present"
+    },
+    {
+      "kind": "bullet",
+      "text": "Lead the technical design and delivery of AI automation and agent workflows."
+    },
+    {
+      "kind": "bullet",
+      "text": "Build and deploy ML models, LLM applications, and agents for incident investigation, early warning, and controlled automation."
+    },
+    {
+      "kind": "bullet",
+      "text": "Built incident-response agents that combine alerts, Prometheus metrics, logs, and runbooks for investigation and controlled remediation. Connected the workflow to issue tracking and team notifications."
+    },
+    {
+      "kind": "bullet",
+      "text": "Developed early-warning detection using seasonal baselines, robust statistics, MAD, EWMA, CUSUM, and burn-rate methods."
+    },
+    {
+      "kind": "bullet",
+      "text": "Tested detection against past incidents and operational feedback. Reduced repeated and low-value alerts using deduplication, severity thresholds, recurrence checks, and cooldowns."
+    },
+    {
+      "kind": "bullet",
+      "text": "Designed shared AI services with Encore, an AI gateway, and PostgreSQL; model routing through LiteLLM; tracing in Langfuse; and workflows in Temporal."
+    },
+    {
+      "kind": "bullet",
+      "text": "Expanded signal discovery and improved the reliability and monitoring of AI services and detection pipelines."
+    },
+    {
+      "kind": "subheading",
+      "text": "Check Point"
+    },
+    {
+      "kind": "metadata",
+      "text": "Senior DevOps and MLOps Engineer | 2024–End of 2025"
+    },
+    {
+      "kind": "bullet",
+      "text": "Automated model training, validation, and deployment using SageMaker, Kubeflow, and MLflow."
+    },
+    {
+      "kind": "bullet",
+      "text": "Built repeatable cloud and Kubernetes environments using Terraform and Ansible."
+    },
+    {
+      "kind": "bullet",
+      "text": "Set up monitoring for models, pipelines, and infrastructure using Prometheus, Datadog, and Grafana."
+    },
+    {
+      "kind": "bullet",
+      "text": "Worked with data scientists and engineers on model integration, scaling, and reliable production operation."
+    },
+    {
+      "kind": "bullet",
+      "text": "Developed CI/CD pipelines and infrastructure automation for repeatable software releases."
+    },
+    {
+      "kind": "subheading",
+      "text": "Ezbob"
+    },
+    {
+      "kind": "metadata",
+      "text": "Senior DevOps and MLOps Engineer | 2022–2024"
+    },
+    {
+      "kind": "bullet",
+      "text": "Built infrastructure to run ML algorithms over large datasets."
+    },
+    {
+      "kind": "bullet",
+      "text": "Optimized and parallelized ML algorithms on a compute grid to meet latency requirements."
+    },
+    {
+      "kind": "bullet",
+      "text": "Added ML capabilities to deployment automation and operational workflows."
+    },
+    {
+      "kind": "subheading",
+      "text": "Pagaya"
+    },
+    {
+      "kind": "metadata",
+      "text": "Principal DevOps Software Engineer | 2021–2022"
+    },
+    {
+      "kind": "bullet",
+      "text": "Built release and deployment tools for production applications and ML decision systems."
+    },
+    {
+      "kind": "bullet",
+      "text": "Developed ETL pipelines using Apache Airflow and AWS Glue."
+    },
+    {
+      "kind": "bullet",
+      "text": "Worked on capacity planning, high availability, performance tuning, and monitoring."
+    },
+    {
+      "kind": "bullet",
+      "text": "Built alerts and monitoring to track system behavior and operational performance."
+    },
+    {
+      "kind": "subheading",
+      "text": "Pyramid Analytics"
+    },
+    {
+      "kind": "metadata",
+      "text": "DevOps, DataOps and Big Data Automation | 2020–2021"
+    },
+    {
+      "kind": "bullet",
+      "text": "Supported ML model deployment, data acquisition, and processing of large datasets."
+    },
+    {
+      "kind": "bullet",
+      "text": "Developed visualization tools for data exploration and model verification."
+    },
+    {
+      "kind": "subheading",
+      "text": "Infibond"
+    },
+    {
+      "kind": "metadata",
+      "text": "DevOps and DataOps Engineer | 2019–2020"
+    },
+    {
+      "kind": "bullet",
+      "text": "Built infrastructure supporting production ML deployment and model verification."
+    },
+    {
+      "kind": "bullet",
+      "text": "Worked on data validation, access controls, security, and backup processes."
+    },
+    {
+      "kind": "subheading",
+      "text": "Colabo"
+    },
+    {
+      "kind": "metadata",
+      "text": "Senior Automation and DevOps Engineer | 2018–2019"
+    },
+    {
+      "kind": "bullet",
+      "text": "Developed automated testing, integration and regression frameworks, and engineering workflows."
+    },
+    {
+      "kind": "subheading",
+      "text": "Ping Identity"
+    },
+    {
+      "kind": "metadata",
+      "text": "Automation and Infrastructure Engineer | 2016–2018"
+    },
+    {
+      "kind": "bullet",
+      "text": "Developed automated processes and integration testing using Java, Python, Ruby, Appium, and Selenium."
+    },
+    {
+      "kind": "section",
+      "text": "TECHNICAL SKILLS"
+    },
+    {
+      "kind": "label",
+      "text": "Data science and machine learning"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Statistical analysis, predictive modeling, anomaly detection, time-series methods, feature engineering, model development, experimental evaluation, computer vision, precision–recall analysis, and failure analysis."
+    },
+    {
+      "kind": "label",
+      "text": "Languages and ML frameworks"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Python, TypeScript, SQL, Bash, PyTorch, TensorFlow, scikit-learn, pandas, and NumPy."
+    },
+    {
+      "kind": "label",
+      "text": "LLMs and agentic systems"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Vertex AI, Bedrock, Claude, Gemini, OpenAI, LiteLLM, Langfuse, LangChain, Temporal, agent orchestration, tool integration, and evaluation."
+    },
+    {
+      "kind": "label",
+      "text": "MLOps and data engineering"
+    },
+    {
+      "kind": "paragraph",
+      "text": "SageMaker, Kubeflow, MLflow, Airflow, AWS Glue, ETL pipelines, PostgreSQL, Redis, Neo4j, and BigQuery."
+    },
+    {
+      "kind": "label",
+      "text": "Infrastructure and observability"
+    },
+    {
+      "kind": "paragraph",
+      "text": "AWS, GCP, Kubernetes, Docker, Terraform, Ansible, CI/CD, Prometheus, Grafana, and Datadog."
+    },
+    {
+      "kind": "label",
+      "text": "Security research"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Application exposure, code reachability, attack-path analysis, SAST, SCA, IaC security, SBOMs, dependency trust, prompt injection, MCP security, guardrail evaluation, YARA, and Opengrep."
+    },
+    {
+      "kind": "section",
+      "text": "EDUCATION AND DOCTORAL RESEARCH"
+    },
+    {
+      "kind": "label",
+      "text": "PhD Researcher in Computer Science"
+    },
+    {
+      "kind": "paragraph",
+      "text": "University of Greenwich — Registered researcher"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Doctoral research: Chagu and agentic AI security · ATAS UK clearance."
+    },
+    {
+      "kind": "paragraph",
+      "text": "Research in AI security, provenance, and accountability."
+    },
+    {
+      "kind": "label",
+      "text": "Specialist Diploma"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Stavropol State Agrarian University"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Relevant studies: mathematics, statistics, and quantitative methods."
+    },
+    {
+      "kind": "label",
+      "text": "MBA"
+    },
+    {
+      "kind": "paragraph",
+      "text": "Università di Bologna"
+    },
+    {
+      "kind": "section",
+      "text": "CERTIFICATIONS AND FELLOWSHIP"
+    },
+    {
+      "kind": "bullet",
+      "text": "Advanced Data Science — Y-Data"
+    },
+    {
+      "kind": "bullet",
+      "text": "Big Data Engineering — NAYA College"
+    },
+    {
+      "kind": "bullet",
+      "text": "AI Performance Engineering Fellowship — Nebius Academy"
+    },
+    {
+      "kind": "bullet",
+      "text": "Nebius Agentic AI Builder — Nebius Academy"
+    },
+    {
+      "kind": "bullet",
+      "text": "AWS Certified Solutions Architect — AWS"
+    },
+    {
+      "kind": "bullet",
+      "text": "Machine Learning Certificate — AlgoExpert"
+    },
+    {
+      "kind": "section",
+      "text": "TECHNICAL WRITING AND CONTRIBUTIONS"
+    },
+    {
+      "kind": "bullet",
+      "text": "Spoke at Neo4j NODES 2025 on graphs, AI, and security."
+    },
+    {
+      "kind": "bullet",
+      "text": "Write about AI security, anomaly detection, observability, and engineering."
+    },
+    {
+      "kind": "bullet",
+      "text": "Publish research prototypes and ML code through Chagu, SARAD, and related projects."
+    },
+    {
+      "kind": "bullet",
+      "text": "Contributed to Nebius and JetBrains Academy"
+    }
+  ]
+}

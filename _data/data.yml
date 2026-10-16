@@ -1,0 +1,252 @@
+sidebar:
+  position: right
+  about: true
+  education: false
+  name: Talex Maxim
+  tagline: AI Engineer & PhD Researcher
+  avatar: talex-portrait-gold-teal-v2.png
+  phone: null
+  linkedin: Talex Maxim
+  print: true
+  pdf: /assets/files/talex-maxim-cv.pdf
+  cover-letter:
+    title: Cover Letter
+    link: /cover-letter/
+    summary: ''
+  chagu-profile:
+    title: ChaGu – AI Security Protocol
+    link: /chagu/
+    summary: ''
+career-profile:
+  title: Career Profile
+  summary: AI engineer and security researcher working across machine learning, infrastructure, and automation.
+    Registered PhD Researcher at the University of Greenwich and creator of Chagu,
+    with independent research into anomaly detection, provenance graphs, and blockchain accountability.
+security-projects:
+  title: Projects in Security
+  details:
+    - "Project areas: SAST and DAST; YARA and Opengrep; node security; deterministic path exposure; exploits and sandboxes."
+professional-knowledge:
+  title: Professional Knowledge
+  info:
+  - category: Languages and ML
+    skills: Python, TypeScript, SQL, PyTorch, TensorFlow, scikit-learn, SageMaker, Kubeflow, MLflow
+  - category: Agentic systems
+    skills: Vertex AI, Bedrock, OpenAI, LiteLLM, Langfuse, LangChain, Temporal
+  - category: Data and infrastructure
+    skills: AWS, GCP, Kubernetes, Docker, Terraform, Airflow, AWS Glue, PostgreSQL, Redis, Neo4j, BigQuery
+  - category: Observability and security
+    skills: Prometheus, Grafana, Datadog, SAST, DAST, YARA, Opengrep, sandboxed testing
+certifications:
+  title: Certifications
+  list:
+  - name: AI Performance Engineering Fellowship
+    organization: Nebius Academy
+  - name: Nebius Agentic AI Builder
+    organization: Nebius Academy
+    link: https://www.credly.com/badges/2bfb6305-cbb3-4d09-8d71-f7337930eadc/linked_in_profile
+  - name: Advanced Data Science
+    organization: Y-Data
+  - name: AWS Certified Solutions Architect
+    organization: AWS
+  - name: Machine Learning Certificate
+    organization: AlgoExpert
+  - name: Big Data Engineering
+    organization: NAYA College
+experiences:
+  title: Experience
+  info:
+  - role: Creator, AI Data Scientist & Researcher
+    time: August 2024 – Present
+    company: Chagu
+    details: Independent protocol development and AI security research involving anomaly detection, provenance graphs, and blockchain accountability.
+  - role: Staff AI Engineer
+    time: 2025 – Present
+    company: Dream team · Global corporation
+    details: |
+      - Led engineering and architecture for AI incident-response and deployment automation, providing technical direction to Scrum teams of 2–5 people.
+      - Built incident-response agents connecting alerts, metrics, logs, and runbooks to investigation and controlled remediation on GCP Cloud Run and Vertex AI.
+      - Developed proactive anomaly detection with seasonal baselines, robust statistics, and change detection; added feedback, deduplication, severity gates, and cooldowns.
+      - Designed shared AI platform architecture with LiteLLM model routing, Langfuse tracing, Temporal workflows, and PostgreSQL-backed services.
+  - role: Sr. DevOps & MLOps Engineer
+    time: 2024 – End of 2025
+    cv-details:
+      - Automated model training, validation, and deployment workflows with SageMaker, Kubeflow, and MLflow; worked with TensorFlow, Keras, and PyTorch.
+      - Built reproducible cloud and Kubernetes infrastructure with Terraform and Ansible, with Prometheus, Datadog, and Grafana monitoring for models and pipelines.
+    company: Check Point
+    details: '- Designed, implemented, and maintained scalable infrastructure using Infrastructure as Code (Terraform,
+      Ansible), and container orchestration systems like Kubernetes (AKS, EKS, GKE).
+
+      - Developed and optimized continuous integration and delivery pipelines for seamless code deployments, reducing
+      manual intervention and increasing efficiency across environments.
+
+      - Managed cloud infrastructures on AWS, Azure, and GCP, focusing on high availability, security, and cost-efficiency
+      in production environments.
+
+      - ML workflows using platforms like SageMaker, Kubeflow, and MLflow. Automated model training, validation,
+      and deployment processes, ensuring efficient scaling of machine learning models in production.
+
+      - Worked closely with data science and development teams to ensure smooth integration of ML models into production
+      environments, ensuring performance, reliability, and scalability.
+
+      -  Implemented monitoring solutions (Prometheus, Grafana, Datadog) for both infrastructure and ML models to
+      ensure proactive issue detection and resolution, including anomaly detection for model behavior.
+
+      -  Enforced security best practices across infrastructure, including the setup of automated vulnerability
+      scans, access management, and data encryption.
+
+      '
+  - role: Sr. DevOps & MLOps Engineer
+    time: 2022 – 2024
+    company: Ezbob
+    cv-details:
+      - Developed ML infrastructure and ETL pipelines for customer segmentation and personalization; parallelized algorithms on a compute grid to improve latency.
+    details: '- Built ML algorithm infrastructure to execute over big data.
+
+      - Optimized and parallelized ML algorithms to meet latency constraints on a parallel compute grid.
+
+      - Created integrated ML solutions for DevOps.
+
+      '
+  - role: Principal DevOps Software Engineer
+    time: 2021 - 2022
+    company: Pagaya
+    cv-details:
+      - Built release and deployment tooling for ML decision workflows and ETL pipelines with Airflow and AWS Glue; supported capacity planning, high availability, and performance tuning.
+    details: '- Integrated ML algorithms into the decision-making process.
+
+      - Created ETLs with Apache Airflow and AWS Glue.
+
+      - Managed capacity planning, high availability engineering, and performance tuning.
+
+      - Created alerts, implemented monitoring tools, and improved visibility to prioritize and track operational
+      metrics in team management.
+
+      - Developed and optimized build, release, and deployment toolchain.
+
+      '
+  - role: DevOps, DataOps, Automation - Big Data
+    time: 2020 - 2021
+    company: Pyramid Analytics
+    details: '- Updated and deployed machine learning models to production.
+
+      - Worked on data acquisition and developed solutions capable of handling large datasets.
+
+      - Developed data visualization tools for future exploration and model verification.
+
+      '
+  - role: DevOps, DataOps Engineer
+    time: 2019 – 2020
+    company: Infibond
+    details: '- Developed and maintained infrastructure for deploying ML models to production.
+
+      - Created tools for data visualization and model verification.
+
+      - Implemented data validation, security, access, and backup solutions.
+
+      '
+  - role: Senior Automation & DevOps Engineer
+    time: 2018 – 2019
+    company: Colabo
+    details: Automated testing, integration and regression frameworks, and engineering workflows.
+  - role: Automation and Infrastructure Engineer
+    time: 2016 – 2018
+    company: Ping Identity
+    details: '- Designed and tested automated processes.
+
+      - Conducted integration and system tests using Java, Python, Ruby, Appium, and Selenium.
+
+      '
+education:
+  title: Education
+  info:
+  - degree: PhD Researcher, Computer Science
+    university: University of Greenwich
+  - degree: Advanced Data Science — Professional Certification
+    university: Y-Data
+  - degree: Big Data Engineering — Professional Certification
+    university: NAYA College
+  - degree: Specialist Diploma — Mathematics & Statistics, Quantitative Finance Focus
+    university: Stavropol State Agricultural University
+  - degree: MBA
+    university: Bologna
+publications:
+  title: Publications
+  articles:
+  - title: Introducing ChainGuard (ChaGu) - A Blockchain-Based Secure Data Transformation and Transfer Protocol
+    link: https://medium.com/@taimax13/introducing-chainguard-chagu-a-blockchain-based-secure-data-transformation-and-transfer-protocol-e4ac1399c2dd
+    details: 'Whether it’s personal information, financial data, or sensitive business documents, the need to protect
+      data from unauthorized access, tampering, and theft is paramount. This is the driving force behind the development
+      of ChainGuard (ChaGu)
+
+      '
+  - title: Advanced Monitoring with AI and Prometheus - Detecting and Mitigating Memory Leaks (Published also by
+      devops-dev)
+    link: https://medium.com/devops-dev/advanced-monitoring-with-ai-and-prometheus-detecting-and-mitigating-memory-leaks-230c9d64fa30
+    details: 'Memory leaks occur when a program allocates memory but fails to release it, gradually increasing memory
+      usage over time. Long-running applications can cause the system to run out of memory, resulting in slowdowns
+      or crashes. Detecting these leaks early is crucial for maintaining application performance and avoiding costly
+      downtime.
+
+      '
+  - title: Secure Data Access and Management in Amazon S3 (published also by AWS Tips)
+    link: https://medium.com/aws-tip/secure-data-access-and-management-in-amazon-s3-1be46cc3f0cc
+    details: 'There are several cloud storage options besides Amazon S3, including Google Cloud Storage, Azure Blob
+      Storage, IBM Cloud Object Storage, Backblaze B2, and DigitalOcean Spaces. Evaluate these options based on
+      your specific needs, like cost, integration, and regional availability, to find the best match.
+
+      '
+  - title: More you can find here
+    link: https://medium.com/@taimax13
+projects:
+  title: Projects
+  intro: 'Here are some of the projects I''ve worked on, showcasing my skills in  Machine Learning, DevOps and Software
+    Engineering.
+
+    '
+  assignments:
+  - title: Chagu - Secure Data Transformation and Transfer Protocol
+    link: https://github.com/taimax13/Chagu
+    tagline: Protocol development and ongoing security research exploring secure data transformation, provenance
+      graphs, blockchain anchoring, and anomaly detection.
+  - title: SARAD — Anomaly Detection for SAR Images
+    link: https://github.com/taimax13/SARAD
+    tagline: Open-source pipeline combining statistical RX detection, autoencoder reconstruction, and anomaly score
+      fusion for synthetic aperture radar imagery.
+  - title: Price Predictor - Machine Learning for Price Estimation
+    link: https://github.com/taimax13/price-predictor
+    tagline: 'A machine learning model developed to predict prices based on historical data, leveraging advanced
+      algorithms and data preprocessing techniques.
+
+      '
+  - title: Infrastructure as Code with Terraform
+    link: https://github.com/taimax13/terraform_localstack
+    tagline: 'Automated infrastructure setup using Terraform, including VPC, EC2, and RDS instances.
+
+      '
+  - title: Platform tool
+    link: https://github.com/taimax13/platform-tool
+    tagline: 'Implemented a secure file transfer protocol using blockchain technology to ensure data integrity.
+
+      '
+  - title: And more you can find here
+    link: https://github.com/taimax13?tab=projects
+    tagline: 'Explore more of my projects on GitHub.
+
+      '
+skills:
+  title: Skills & Proficiency
+  toolset:
+  - name: Python, Pandas & NumPy
+  - name: Scikit-learn, XGBoost & LightGBM
+  - name: Deep Learning (Keras, TensorFlow, PyTorch)
+  - name: Machine Learning Ops (SageMaker, MLflow, Kubeflow)
+  - name: Data Wrangling & Feature Engineering
+  - name: SQL, BigQuery & Data Lakes
+  - name: Data Visualization (Plotly, Seaborn, Dash)
+  - name: Cloud Platforms (AWS, GCP, Azure)
+  - name: Security-Aware AI (Prompt Injection Defense, Blockchain Auditing)
+footer: 'Thank you for visiting <i class="fas fa-heart"></i> from <a href="http://themes.3rdwavemedia.com" target="_blank"
+  rel="nofollow">Talex Maxim</a>
+
+  '

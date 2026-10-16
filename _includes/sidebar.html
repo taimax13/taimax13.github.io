@@ -1,0 +1,45 @@
+{% assign sidebar = site.data.data.sidebar %}
+<div class="sidebar-wrapper">
+
+  <div class="profile-container">
+    {% if sidebar.avatar %}
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    {% endif %}
+
+    {% if sidebar.name %}
+    <h1 class="name">{{ sidebar.name }}</h1>
+    {% endif %}
+
+    {% if sidebar.tagline %}
+    <h3 class="tagline">{{ sidebar.tagline }}</h3>
+    {% endif %}
+  </div><!--//profile-container-->
+
+  {% include contact.html %}
+
+  {% if sidebar.education %}
+    {% include education.html %}
+  {% endif %}
+
+  {% include language.html %}
+  {% include interests.html %}
+
+  {% if sidebar.about %}
+    {% include about.html %}
+  {% endif %}
+
+  <!-- Cover Letter Reference -->
+  <div class="cover-letter-link">
+    <a href="{{ site.baseurl }}/cover-letter/" class="btn btn-outline-primary btn-icon">
+      <i class="fas fa-file-alt"></i> Cover Letter
+    </a>
+  </div><!--//cover-letter-link-->
+
+  <!-- ChaGu Reference -->
+  <div class="chagu-container container-block">
+    <a href="{{ site.baseurl }}/chagu/" class="btn btn-outline-dark btn-icon">
+      <i class="fas fa-terminal"></i> Explore ChaGu
+    </a>
+  </div>
+
+</div><!--//sidebar-wrapper-->

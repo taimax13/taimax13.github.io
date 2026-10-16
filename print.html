@@ -1,0 +1,33 @@
+---
+layout: print
+permalink: /print
+---
+{% assign cv = site.data.cv %}
+<header class="cv-header">
+  <img src="{{ '/assets/images/talex-portrait-gold-teal-v2.png' | relative_url }}" alt="Portrait of Talex Maxim" width="120" height="120">
+  <div>
+    <h1>{{ cv.header[0] | escape }}</h1>
+    <p class="cv-title">{{ cv.header[1] | escape }}</p>
+    <p>{{ cv.header[2] | escape }}</p>
+    <p>{{ cv.header[3] | escape }}</p>
+    <p><a href="https://github.com/taimax13" target="_blank" rel="noopener noreferrer">GitHub: github.com/taimax13</a> · <a href="https://www.linkedin.com/in/talex-maxim/" target="_blank" rel="noopener noreferrer">LinkedIn: linkedin.com/in/talex-maxim</a></p>
+  </div>
+</header>
+<nav class="cv-actions" aria-label="CV actions">
+  <a href="{{ '/assets/files/talex-maxim-cv.pdf' | relative_url }}" download="Talex-Maxim-CV.pdf" type="application/pdf">Download CV (PDF)</a>
+  <button type="button" onclick="window.print()">Print this page</button>
+  <a href="{{ '/' | relative_url }}">Portfolio</a>
+</nav>
+{% assign in_list = false %}
+{% for block in cv.blocks %}
+  {% if block.kind != 'bullet' and in_list %}</ul>{% assign in_list = false %}{% endif %}
+  {% case block.kind %}
+    {% when 'section' %}<h2>{{ block.text | escape }}</h2>
+    {% when 'subheading' %}<h3>{{ block.text | escape }}</h3>
+    {% when 'metadata' %}<p class="cv-metadata">{{ block.text | escape }}</p>
+    {% when 'label' %}<p class="cv-label">{{ block.text | escape }}</p>
+    {% when 'bullet' %}{% unless in_list %}<ul>{% assign in_list = true %}{% endunless %}<li>{{ block.text | escape }}</li>
+    {% else %}<p>{{ block.text | escape }}</p>
+  {% endcase %}
+{% endfor %}
+{% if in_list %}</ul>{% endif %}
