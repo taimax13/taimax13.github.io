@@ -79,7 +79,7 @@ def validate(directory):
             references += 1
     home = (root / 'index.html').read_text()
     for required in ['Creator, AI Data Scientist &amp; Researcher', 'August 2024',
-                     'Dream team · Global corporation', 'Staff AI Engineer', '2025 — Present',
+                     'Nasdaq-listed global e-commerce marketplace', 'Staff AI Engineer', 'End of 2025 — Present',
                      '2024 — End of 2025', '2022 — 2024', '2021 — 2022',
                      'PhD Researcher, Computer Science', 'Registered researcher',
                      'Advanced Data Science', 'Y-Data', 'Big Data Engineering',

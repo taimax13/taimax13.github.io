@@ -61,8 +61,8 @@ experiences:
     company: Chagu
     details: Independent protocol development and AI security research involving anomaly detection, provenance graphs, and blockchain accountability.
   - role: Staff AI Engineer
-    time: 2025 – Present
-    company: Dream team · Global corporation
+    time: End of 2025 – Present
+    company: Nasdaq-listed global e-commerce marketplace
     details: |
       - Led engineering and architecture for AI incident-response and deployment automation, providing technical direction to Scrum teams of 2–5 people.
       - Built incident-response agents connecting alerts, metrics, logs, and runbooks to investigation and controlled remediation on GCP Cloud Run and Vertex AI.
